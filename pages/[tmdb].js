@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import Link from "next/link"
 import styles from "../styles/Home.module.css";
 
 const moviePage = (props) => {
@@ -11,7 +12,9 @@ const moviePage = (props) => {
 
 	return (
 		<div>
-            <a href="/"> Home</a>
+            <Link href="/">
+            <a > Home</a>
+            </Link>
 			<section className={styles.movieSection}>
 				<table className={styles.movieTable}>
 					<tr>
