@@ -6,11 +6,18 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+::-webkit-input-placeholder {
+  text-align: center;
 }
 
-* {
-  box-sizing: border-box;
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+
+}
+
+th {
+  border-right: 1px solid #ddd ;
+  background-color: rgb(201, 122, 122);
 }
